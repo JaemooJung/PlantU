@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AAECCDDCA282410274FAD26 /* Pods_PetPlant_PT_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE650B256212FB5CF5655DB /* Pods_PetPlant_PT_2.framework */; };
+		CC1E604B25A9BE3E00C5D27F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E604A25A9BE3E00C5D27F /* AppDelegate.swift */; };
+		CC1E604D25A9BE3E00C5D27F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E604C25A9BE3E00C5D27F /* SceneDelegate.swift */; };
+		CC1E604F25A9BE3E00C5D27F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E604E25A9BE3E00C5D27F /* ViewController.swift */; };
+		CC1E605225A9BE3E00C5D27F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1E605025A9BE3E00C5D27F /* Main.storyboard */; };
+		CC1E605525A9BE3E00C5D27F /* PetPlant_PT_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC1E605325A9BE3E00C5D27F /* PetPlant_PT_2.xcdatamodeld */; };
+		CC1E605725A9BE4000C5D27F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1E605625A9BE4000C5D27F /* Assets.xcassets */; };
+		CC1E605A25A9BE4000C5D27F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1E605825A9BE4000C5D27F /* LaunchScreen.storyboard */; };
+		CC1E607925A9C5C300C5D27F /* PlantCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E607825A9C5C300C5D27F /* PlantCellTableViewCell.swift */; };
+		CC1E607C25A9C67100C5D27F /* DateFormatHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E607B25A9C67100C5D27F /* DateFormatHandler.swift */; };
+		CC1E608425A9D87200C5D27F /* AddPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E608325A9D87200C5D27F /* AddPlantViewController.swift */; };
+		CC1E608725A9EC0300C5D27F /* UpdatePlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E608625A9EC0300C5D27F /* UpdatePlantViewController.swift */; };
+		CC1F3ED725AAEA4F00A619B0 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1F3ED625AAEA4F00A619B0 /* CalendarViewController.swift */; };
+		CC7F7C5825AA267800290CE5 /* Plant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F7C5225AA267800290CE5 /* Plant+CoreDataClass.swift */; };
+		CC7F7C5925AA267800290CE5 /* Plant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F7C5325AA267800290CE5 /* Plant+CoreDataProperties.swift */; };
+		CC7F7C5A25AA267800290CE5 /* PlantCare+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F7C5425AA267800290CE5 /* PlantCare+CoreDataClass.swift */; };
+		CC7F7C5B25AA267800290CE5 /* PlantCare+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F7C5525AA267800290CE5 /* PlantCare+CoreDataProperties.swift */; };
+		CC7F7C5C25AA267800290CE5 /* Journal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F7C5625AA267800290CE5 /* Journal+CoreDataClass.swift */; };
+		CC7F7C5D25AA267800290CE5 /* Journal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F7C5725AA267800290CE5 /* Journal+CoreDataProperties.swift */; };
+		CC7F7C6225AA290800290CE5 /* RelationshipDemo_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F7C6125AA290800290CE5 /* RelationshipDemo_ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0709B278AE331ED8D8700087 /* Pods-PetPlant_PT_2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetPlant_PT_2.debug.xcconfig"; path = "Target Support Files/Pods-PetPlant_PT_2/Pods-PetPlant_PT_2.debug.xcconfig"; sourceTree = "<group>"; };
+		5FE650B256212FB5CF5655DB /* Pods_PetPlant_PT_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetPlant_PT_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1E604725A9BE3E00C5D27F /* PetPlant_PT_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetPlant_PT_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1E604A25A9BE3E00C5D27F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC1E604C25A9BE3E00C5D27F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC1E604E25A9BE3E00C5D27F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC1E605125A9BE3E00C5D27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC1E605425A9BE3E00C5D27F /* PetPlant_PT_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetPlant_PT_2.xcdatamodel; sourceTree = "<group>"; };
+		CC1E605625A9BE4000C5D27F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC1E605925A9BE4000C5D27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC1E605B25A9BE4000C5D27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1E607825A9C5C300C5D27F /* PlantCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCellTableViewCell.swift; sourceTree = "<group>"; };
+		CC1E607B25A9C67100C5D27F /* DateFormatHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatHandler.swift; sourceTree = "<group>"; };
+		CC1E608325A9D87200C5D27F /* AddPlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantViewController.swift; sourceTree = "<group>"; };
+		CC1E608625A9EC0300C5D27F /* UpdatePlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePlantViewController.swift; sourceTree = "<group>"; };
+		CC1F3ED625AAEA4F00A619B0 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		CC7F7C5225AA267800290CE5 /* Plant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CC7F7C5325AA267800290CE5 /* Plant+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CC7F7C5425AA267800290CE5 /* PlantCare+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlantCare+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CC7F7C5525AA267800290CE5 /* PlantCare+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlantCare+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CC7F7C5625AA267800290CE5 /* Journal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Journal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CC7F7C5725AA267800290CE5 /* Journal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Journal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CC7F7C6125AA290800290CE5 /* RelationshipDemo_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipDemo_ViewController.swift; sourceTree = "<group>"; };
+		FE98A7ED325CA195CFB37553 /* Pods-PetPlant_PT_2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetPlant_PT_2.release.xcconfig"; path = "Target Support Files/Pods-PetPlant_PT_2/Pods-PetPlant_PT_2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC1E604425A9BE3E00C5D27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAECCDDCA282410274FAD26 /* Pods_PetPlant_PT_2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08ADAFD99B242BF46EB05976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FE650B256212FB5CF5655DB /* Pods_PetPlant_PT_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97BE61F29F1EAD44B6E6E0A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0709B278AE331ED8D8700087 /* Pods-PetPlant_PT_2.debug.xcconfig */,
+				FE98A7ED325CA195CFB37553 /* Pods-PetPlant_PT_2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC1E603E25A9BE3E00C5D27F = {
+			isa = PBXGroup;
+			children = (
+				CC1E604925A9BE3E00C5D27F /* PetPlant_PT_2 */,
+				CC1E604825A9BE3E00C5D27F /* Products */,
+				97BE61F29F1EAD44B6E6E0A9 /* Pods */,
+				08ADAFD99B242BF46EB05976 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC1E604825A9BE3E00C5D27F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1E604725A9BE3E00C5D27F /* PetPlant_PT_2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC1E604925A9BE3E00C5D27F /* PetPlant_PT_2 */ = {
+			isa = PBXGroup;
+			children = (
+				CC1E608A25A9F4B200C5D27F /* TableViewCell */,
+				CC1E608925A9F48F00C5D27F /* ViewControllers */,
+				CC1E607625A9C04100C5D27F /* PetPlantDataModel */,
+				CC1E604A25A9BE3E00C5D27F /* AppDelegate.swift */,
+				CC1E604C25A9BE3E00C5D27F /* SceneDelegate.swift */,
+				CC1E605025A9BE3E00C5D27F /* Main.storyboard */,
+				CC1E607B25A9C67100C5D27F /* DateFormatHandler.swift */,
+				CC1E605625A9BE4000C5D27F /* Assets.xcassets */,
+				CC1E605825A9BE4000C5D27F /* LaunchScreen.storyboard */,
+				CC1E605B25A9BE4000C5D27F /* Info.plist */,
+				CC1E605325A9BE3E00C5D27F /* PetPlant_PT_2.xcdatamodeld */,
+			);
+			path = PetPlant_PT_2;
+			sourceTree = "<group>";
+		};
+		CC1E607625A9C04100C5D27F /* PetPlantDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F7C5225AA267800290CE5 /* Plant+CoreDataClass.swift */,
+				CC7F7C5325AA267800290CE5 /* Plant+CoreDataProperties.swift */,
+				CC7F7C5425AA267800290CE5 /* PlantCare+CoreDataClass.swift */,
+				CC7F7C5525AA267800290CE5 /* PlantCare+CoreDataProperties.swift */,
+				CC7F7C5625AA267800290CE5 /* Journal+CoreDataClass.swift */,
+				CC7F7C5725AA267800290CE5 /* Journal+CoreDataProperties.swift */,
+			);
+			path = PetPlantDataModel;
+			sourceTree = "<group>";
+		};
+		CC1E608925A9F48F00C5D27F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC1F3ED625AAEA4F00A619B0 /* CalendarViewController.swift */,
+				CC1E604E25A9BE3E00C5D27F /* ViewController.swift */,
+				CC1E608625A9EC0300C5D27F /* UpdatePlantViewController.swift */,
+				CC1E608325A9D87200C5D27F /* AddPlantViewController.swift */,
+				CC7F7C6125AA290800290CE5 /* RelationshipDemo_ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CC1E608A25A9F4B200C5D27F /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC1E607825A9C5C300C5D27F /* PlantCellTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC1E604625A9BE3E00C5D27F /* PetPlant_PT_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1E605E25A9BE4000C5D27F /* Build configuration list for PBXNativeTarget "PetPlant_PT_2" */;
+			buildPhases = (
+				C645B48D5235CD6C28F27E09 /* [CP] Check Pods Manifest.lock */,
+				CC1E604325A9BE3E00C5D27F /* Sources */,
+				CC1E604425A9BE3E00C5D27F /* Frameworks */,
+				CC1E604525A9BE3E00C5D27F /* Resources */,
+				75390D789AC6B84890E6440F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetPlant_PT_2;
+			productName = PetPlant_PT_2;
+			productReference = CC1E604725A9BE3E00C5D27F /* PetPlant_PT_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC1E603F25A9BE3E00C5D27F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CC1E604625A9BE3E00C5D27F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = CC1E604225A9BE3E00C5D27F /* Build configuration list for PBXProject "PetPlant_PT_2" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC1E603E25A9BE3E00C5D27F;
+			productRefGroup = CC1E604825A9BE3E00C5D27F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC1E604625A9BE3E00C5D27F /* PetPlant_PT_2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC1E604525A9BE3E00C5D27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1E605A25A9BE4000C5D27F /* LaunchScreen.storyboard in Resources */,
+				CC1E605725A9BE4000C5D27F /* Assets.xcassets in Resources */,
+				CC1E605225A9BE3E00C5D27F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75390D789AC6B84890E6440F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetPlant_PT_2/Pods-PetPlant_PT_2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetPlant_PT_2/Pods-PetPlant_PT_2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PetPlant_PT_2/Pods-PetPlant_PT_2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C645B48D5235CD6C28F27E09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetPlant_PT_2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC1E604325A9BE3E00C5D27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1F3ED725AAEA4F00A619B0 /* CalendarViewController.swift in Sources */,
+				CC7F7C5A25AA267800290CE5 /* PlantCare+CoreDataClass.swift in Sources */,
+				CC7F7C6225AA290800290CE5 /* RelationshipDemo_ViewController.swift in Sources */,
+				CC1E604F25A9BE3E00C5D27F /* ViewController.swift in Sources */,
+				CC1E607C25A9C67100C5D27F /* DateFormatHandler.swift in Sources */,
+				CC1E604B25A9BE3E00C5D27F /* AppDelegate.swift in Sources */,
+				CC1E607925A9C5C300C5D27F /* PlantCellTableViewCell.swift in Sources */,
+				CC7F7C5C25AA267800290CE5 /* Journal+CoreDataClass.swift in Sources */,
+				CC7F7C5D25AA267800290CE5 /* Journal+CoreDataProperties.swift in Sources */,
+				CC1E605525A9BE3E00C5D27F /* PetPlant_PT_2.xcdatamodeld in Sources */,
+				CC7F7C5B25AA267800290CE5 /* PlantCare+CoreDataProperties.swift in Sources */,
+				CC7F7C5925AA267800290CE5 /* Plant+CoreDataProperties.swift in Sources */,
+				CC1E608725A9EC0300C5D27F /* UpdatePlantViewController.swift in Sources */,
+				CC1E604D25A9BE3E00C5D27F /* SceneDelegate.swift in Sources */,
+				CC7F7C5825AA267800290CE5 /* Plant+CoreDataClass.swift in Sources */,
+				CC1E608425A9D87200C5D27F /* AddPlantViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC1E605025A9BE3E00C5D27F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1E605125A9BE3E00C5D27F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC1E605825A9BE4000C5D27F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1E605925A9BE4000C5D27F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC1E605C25A9BE4000C5D27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC1E605D25A9BE4000C5D27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC1E605F25A9BE4000C5D27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0709B278AE331ED8D8700087 /* Pods-PetPlant_PT_2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86F3BYCLAK;
+				INFOPLIST_FILE = PetPlant_PT_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jaemoo.PetPlant-PT-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC1E606025A9BE4000C5D27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE98A7ED325CA195CFB37553 /* Pods-PetPlant_PT_2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86F3BYCLAK;
+				INFOPLIST_FILE = PetPlant_PT_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jaemoo.PetPlant-PT-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC1E604225A9BE3E00C5D27F /* Build configuration list for PBXProject "PetPlant_PT_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1E605C25A9BE4000C5D27F /* Debug */,
+				CC1E605D25A9BE4000C5D27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1E605E25A9BE4000C5D27F /* Build configuration list for PBXNativeTarget "PetPlant_PT_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1E605F25A9BE4000C5D27F /* Debug */,
+				CC1E606025A9BE4000C5D27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC1E605325A9BE3E00C5D27F /* PetPlant_PT_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC1E605425A9BE3E00C5D27F /* PetPlant_PT_2.xcdatamodel */,
+			);
+			currentVersion = CC1E605425A9BE3E00C5D27F /* PetPlant_PT_2.xcdatamodel */;
+			path = PetPlant_PT_2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC1E603F25A9BE3E00C5D27F /* Project object */;
+}

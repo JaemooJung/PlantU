@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Journal" representedClassName="Journal" syncable="YES" codeGenerationType="class">
+        <attribute name="emotionalState" optional="YES" attributeType="String"/>
+        <attribute name="journalContent" optional="YES" attributeType="String"/>
+        <attribute name="journalPhotoURL" optional="YES" attributeType="String"/>
+        <attribute name="journalTitle" optional="YES" attributeType="String"/>
+        <attribute name="writtenDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="plant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Plant" inverseName="journals" inverseEntity="Plant"/>
+    </entity>
+    <entity name="Plant" representedClassName="Plant" syncable="YES" codeGenerationType="class">
+        <attribute name="birthDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="lastWateredDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="plantName" optional="YES" attributeType="String"/>
+        <attribute name="profilePhotoURL" optional="YES" attributeType="String"/>
+        <attribute name="registeredDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="species" optional="YES" attributeType="String"/>
+        <attribute name="waterInterval" optional="YES" attributeType="String"/>
+        <relationship name="journals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Journal" inverseName="plant" inverseEntity="Journal"/>
+        <relationship name="plantCares" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PlantCare" inverseName="plant" inverseEntity="PlantCare"/>
+    </entity>
+    <entity name="PlantCare" representedClassName="PlantCare" syncable="YES" codeGenerationType="class">
+        <attribute name="careDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="changeLocation" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="nutrition" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="pruning" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repotting" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="watering" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="plant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Plant" inverseName="plantCares" inverseEntity="Plant"/>
+    </entity>
+    <elements>
+        <element name="Journal" positionX="27" positionY="72" width="128" height="119"/>
+        <element name="Plant" positionX="-36" positionY="9" width="128" height="164"/>
+        <element name="PlantCare" positionX="0" positionY="45" width="128" height="134"/>
+    </elements>
+</model>

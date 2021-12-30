@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC3349FB25ADF8DA00FB3360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3349FA25ADF8DA00FB3360 /* AppDelegate.swift */; };
+		CC3349FD25ADF8DA00FB3360 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3349FC25ADF8DA00FB3360 /* SceneDelegate.swift */; };
+		CC3349FF25ADF8DA00FB3360 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3349FE25ADF8DA00FB3360 /* HomeViewController.swift */; };
+		CC334A0225ADF8DA00FB3360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC334A0025ADF8DA00FB3360 /* Main.storyboard */; };
+		CC334A0525ADF8DA00FB3360 /* PetPlant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC334A0325ADF8DA00FB3360 /* PetPlant.xcdatamodeld */; };
+		CC334A0725ADF8DB00FB3360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC334A0625ADF8DB00FB3360 /* Assets.xcassets */; };
+		CC334A0A25ADF8DB00FB3360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC334A0825ADF8DB00FB3360 /* LaunchScreen.storyboard */; };
+		CC334A2B25ADFBEB00FB3360 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC334A2A25ADFBEB00FB3360 /* Home.storyboard */; };
+		CC334A3225ADFD4C00FB3360 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC334A3125ADFD4C00FB3360 /* HomeTableViewCell.swift */; };
+		CC334A3725AE00CB00FB3360 /* DateFormatFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC334A3625AE00CB00FB3360 /* DateFormatFunctions.swift */; };
+		CC334A3F25AE0B9400FB3360 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC334A3E25AE0B9400FB3360 /* MainViewController.swift */; };
+		CC334A5425AE194600FB3360 /* AddPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC334A5325AE194600FB3360 /* AddPlantViewController.swift */; };
+		CC334A5825AE21E200FB3360 /* ImageFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC334A5725AE21E200FB3360 /* ImageFileManager.swift */; };
+		CCC4861225AEBC920060D583 /* WriteJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC4861125AEBC920060D583 /* WriteJournalViewController.swift */; };
+		CCC4861525AEBCB90060D583 /* JournalListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC4861425AEBCB90060D583 /* JournalListTableViewController.swift */; };
+		CCC4861825AEBCD40060D583 /* JournalListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC4861725AEBCD40060D583 /* JournalListTableViewCell.swift */; };
+		D90EE3B3A7504AEE1C19EAB3 /* Pods_PetPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02780A67CEFCCB98DC4E157 /* Pods_PetPlant.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		052ED17253451CE2927BEE4A /* Pods-PetPlant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetPlant.release.xcconfig"; path = "Target Support Files/Pods-PetPlant/Pods-PetPlant.release.xcconfig"; sourceTree = "<group>"; };
+		A1968EE226554C115A35A864 /* Pods-PetPlant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetPlant.debug.xcconfig"; path = "Target Support Files/Pods-PetPlant/Pods-PetPlant.debug.xcconfig"; sourceTree = "<group>"; };
+		B02780A67CEFCCB98DC4E157 /* Pods_PetPlant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetPlant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3349F725ADF8DA00FB3360 /* PetPlant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetPlant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3349FA25ADF8DA00FB3360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC3349FC25ADF8DA00FB3360 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC3349FE25ADF8DA00FB3360 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CC334A0125ADF8DA00FB3360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC334A0425ADF8DA00FB3360 /* PetPlant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetPlant.xcdatamodel; sourceTree = "<group>"; };
+		CC334A0625ADF8DB00FB3360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC334A0925ADF8DB00FB3360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC334A0B25ADF8DB00FB3360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC334A2A25ADFBEB00FB3360 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		CC334A3125ADFD4C00FB3360 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		CC334A3625AE00CB00FB3360 /* DateFormatFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatFunctions.swift; sourceTree = "<group>"; };
+		CC334A3E25AE0B9400FB3360 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CC334A5325AE194600FB3360 /* AddPlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantViewController.swift; sourceTree = "<group>"; };
+		CC334A5725AE21E200FB3360 /* ImageFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFileManager.swift; sourceTree = "<group>"; };
+		CCC4861125AEBC920060D583 /* WriteJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteJournalViewController.swift; sourceTree = "<group>"; };
+		CCC4861425AEBCB90060D583 /* JournalListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListTableViewController.swift; sourceTree = "<group>"; };
+		CCC4861725AEBCD40060D583 /* JournalListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3349F425ADF8DA00FB3360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90EE3B3A7504AEE1C19EAB3 /* Pods_PetPlant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD7A1554AF4C148179BC1F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B02780A67CEFCCB98DC4E157 /* Pods_PetPlant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC3349EE25ADF8DA00FB3360 = {
+			isa = PBXGroup;
+			children = (
+				CC3349F925ADF8DA00FB3360 /* PetPlant */,
+				CC3349F825ADF8DA00FB3360 /* Products */,
+				F36F776D14C09D035E8ED460 /* Pods */,
+				CAD7A1554AF4C148179BC1F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3349F825ADF8DA00FB3360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3349F725ADF8DA00FB3360 /* PetPlant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3349F925ADF8DA00FB3360 /* PetPlant */ = {
+			isa = PBXGroup;
+			children = (
+				CC334A2925ADFBB300FB3360 /* Storyboards_jaemoo */,
+				CC334A2625ADFB7900FB3360 /* ViewControllers_jaemoo */,
+				CC334A1625ADFAA500FB3360 /* DataModels */,
+				CC3349FA25ADF8DA00FB3360 /* AppDelegate.swift */,
+				CC3349FC25ADF8DA00FB3360 /* SceneDelegate.swift */,
+				CC334A0025ADF8DA00FB3360 /* Main.storyboard */,
+				CC334A3E25AE0B9400FB3360 /* MainViewController.swift */,
+				CC334A0625ADF8DB00FB3360 /* Assets.xcassets */,
+				CC334A0825ADF8DB00FB3360 /* LaunchScreen.storyboard */,
+				CC334A0B25ADF8DB00FB3360 /* Info.plist */,
+				CC334A0325ADF8DA00FB3360 /* PetPlant.xcdatamodeld */,
+				CC334A3625AE00CB00FB3360 /* DateFormatFunctions.swift */,
+				CC334A5725AE21E200FB3360 /* ImageFileManager.swift */,
+			);
+			path = PetPlant;
+			sourceTree = "<group>";
+		};
+		CC334A1625ADFAA500FB3360 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		CC334A2625ADFB7900FB3360 /* ViewControllers_jaemoo */ = {
+			isa = PBXGroup;
+			children = (
+				CC334A3025ADFD2D00FB3360 /* TableViewCells */,
+				CC3349FE25ADF8DA00FB3360 /* HomeViewController.swift */,
+				CC334A5325AE194600FB3360 /* AddPlantViewController.swift */,
+				CCC4861125AEBC920060D583 /* WriteJournalViewController.swift */,
+				CCC4861425AEBCB90060D583 /* JournalListTableViewController.swift */,
+			);
+			path = ViewControllers_jaemoo;
+			sourceTree = "<group>";
+		};
+		CC334A2925ADFBB300FB3360 /* Storyboards_jaemoo */ = {
+			isa = PBXGroup;
+			children = (
+				CC334A2A25ADFBEB00FB3360 /* Home.storyboard */,
+			);
+			path = Storyboards_jaemoo;
+			sourceTree = "<group>";
+		};
+		CC334A3025ADFD2D00FB3360 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				CC334A3125ADFD4C00FB3360 /* HomeTableViewCell.swift */,
+				CCC4861725AEBCD40060D583 /* JournalListTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		F36F776D14C09D035E8ED460 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1968EE226554C115A35A864 /* Pods-PetPlant.debug.xcconfig */,
+				052ED17253451CE2927BEE4A /* Pods-PetPlant.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3349F625ADF8DA00FB3360 /* PetPlant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC334A0E25ADF8DB00FB3360 /* Build configuration list for PBXNativeTarget "PetPlant" */;
+			buildPhases = (
+				19D2504BA09D618E0E9134AE /* [CP] Check Pods Manifest.lock */,
+				CC3349F325ADF8DA00FB3360 /* Sources */,
+				CC3349F425ADF8DA00FB3360 /* Frameworks */,
+				CC3349F525ADF8DA00FB3360 /* Resources */,
+				77C2830A1E52F88C230E3EED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetPlant;
+			productName = PetPlant;
+			productReference = CC3349F725ADF8DA00FB3360 /* PetPlant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3349EF25ADF8DA00FB3360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CC3349F625ADF8DA00FB3360 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = CC3349F225ADF8DA00FB3360 /* Build configuration list for PBXProject "PetPlant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3349EE25ADF8DA00FB3360;
+			productRefGroup = CC3349F825ADF8DA00FB3360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3349F625ADF8DA00FB3360 /* PetPlant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3349F525ADF8DA00FB3360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC334A0A25ADF8DB00FB3360 /* LaunchScreen.storyboard in Resources */,
+				CC334A2B25ADFBEB00FB3360 /* Home.storyboard in Resources */,
+				CC334A0725ADF8DB00FB3360 /* Assets.xcassets in Resources */,
+				CC334A0225ADF8DA00FB3360 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19D2504BA09D618E0E9134AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetPlant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77C2830A1E52F88C230E3EED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetPlant/Pods-PetPlant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetPlant/Pods-PetPlant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PetPlant/Pods-PetPlant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3349F325ADF8DA00FB3360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC334A3225ADFD4C00FB3360 /* HomeTableViewCell.swift in Sources */,
+				CC334A3F25AE0B9400FB3360 /* MainViewController.swift in Sources */,
+				CC334A5425AE194600FB3360 /* AddPlantViewController.swift in Sources */,
+				CC3349FF25ADF8DA00FB3360 /* HomeViewController.swift in Sources */,
+				CC334A0525ADF8DA00FB3360 /* PetPlant.xcdatamodeld in Sources */,
+				CC3349FB25ADF8DA00FB3360 /* AppDelegate.swift in Sources */,
+				CCC4861225AEBC920060D583 /* WriteJournalViewController.swift in Sources */,
+				CCC4861825AEBCD40060D583 /* JournalListTableViewCell.swift in Sources */,
+				CCC4861525AEBCB90060D583 /* JournalListTableViewController.swift in Sources */,
+				CC334A5825AE21E200FB3360 /* ImageFileManager.swift in Sources */,
+				CC334A3725AE00CB00FB3360 /* DateFormatFunctions.swift in Sources */,
+				CC3349FD25ADF8DA00FB3360 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC334A0025ADF8DA00FB3360 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC334A0125ADF8DA00FB3360 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC334A0825ADF8DB00FB3360 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC334A0925ADF8DB00FB3360 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC334A0C25ADF8DB00FB3360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC334A0D25ADF8DB00FB3360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC334A0F25ADF8DB00FB3360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1968EE226554C115A35A864 /* Pods-PetPlant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86F3BYCLAK;
+				INFOPLIST_FILE = PetPlant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jaemoo.PetPlant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC334A1025ADF8DB00FB3360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 052ED17253451CE2927BEE4A /* Pods-PetPlant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86F3BYCLAK;
+				INFOPLIST_FILE = PetPlant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jaemoo.PetPlant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3349F225ADF8DA00FB3360 /* Build configuration list for PBXProject "PetPlant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC334A0C25ADF8DB00FB3360 /* Debug */,
+				CC334A0D25ADF8DB00FB3360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC334A0E25ADF8DB00FB3360 /* Build configuration list for PBXNativeTarget "PetPlant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC334A0F25ADF8DB00FB3360 /* Debug */,
+				CC334A1025ADF8DB00FB3360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC334A0325ADF8DA00FB3360 /* PetPlant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC334A0425ADF8DA00FB3360 /* PetPlant.xcdatamodel */,
+			);
+			currentVersion = CC334A0425ADF8DA00FB3360 /* PetPlant.xcdatamodel */;
+			path = PetPlant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC3349EF25ADF8DA00FB3360 /* Project object */;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5Hq-gc-jKX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5tI-a0-7gS">
+            <objects>
+                <viewController id="5Hq-gc-jKX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="St3-23-1OW"/>
+                        <viewControllerLayoutGuide type="bottom" id="otP-GR-kfH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1D3-41-wHg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plantPhotoPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="TrE-ow-CIh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jZU-5r-aAP">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PlantU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7q-3p-FDo">
+                                        <rect key="frame" x="138" y="419.5" width="138.5" height="57"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="45"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.86936549949999997" green="0.86936549949999997" blue="0.86936549949999997" alpha="0.22223950379999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <size key="shadowOffset" width="3" height="3"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.17311712709999999" green="0.17311712709999999" blue="0.17311712709999999" alpha="0.36978472779999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="E7q-3p-FDo" firstAttribute="centerY" secondItem="jZU-5r-aAP" secondAttribute="centerY" id="km8-EF-PCg"/>
+                                    <constraint firstItem="E7q-3p-FDo" firstAttribute="centerX" secondItem="jZU-5r-aAP" secondAttribute="centerX" id="p84-bT-eQm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="TrE-ow-CIh" firstAttribute="top" secondItem="St3-23-1OW" secondAttribute="bottom" constant="-44" id="78N-39-0uM"/>
+                            <constraint firstAttribute="trailing" secondItem="TrE-ow-CIh" secondAttribute="trailing" id="8FD-fS-E0q"/>
+                            <constraint firstItem="jZU-5r-aAP" firstAttribute="top" secondItem="1D3-41-wHg" secondAttribute="top" id="B26-XQ-I3G"/>
+                            <constraint firstItem="jZU-5r-aAP" firstAttribute="trailing" secondItem="1D3-41-wHg" secondAttribute="trailing" id="cUl-sq-asu"/>
+                            <constraint firstItem="TrE-ow-CIh" firstAttribute="leading" secondItem="1D3-41-wHg" secondAttribute="leading" id="jBg-gS-8mo"/>
+                            <constraint firstAttribute="bottom" secondItem="jZU-5r-aAP" secondAttribute="bottom" id="ugZ-r8-dQC"/>
+                            <constraint firstItem="otP-GR-kfH" firstAttribute="top" secondItem="TrE-ow-CIh" secondAttribute="bottom" constant="-34" id="xVo-fQ-Jyt"/>
+                            <constraint firstItem="jZU-5r-aAP" firstAttribute="leading" secondItem="1D3-41-wHg" secondAttribute="leading" id="xiI-bO-0qx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CMe-jM-XeN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8" y="-389"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="plantPhotoPlaceholder" width="1920" height="2880"/>
+    </resources>
+</document>

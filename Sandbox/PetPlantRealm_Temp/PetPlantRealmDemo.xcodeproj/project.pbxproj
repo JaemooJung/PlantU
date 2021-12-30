@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC071FD225B1C4D00093EAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC071FD125B1C4D00093EAE8 /* AppDelegate.swift */; };
+		CC071FD425B1C4D00093EAE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC071FD325B1C4D00093EAE8 /* SceneDelegate.swift */; };
+		CC071FD625B1C4D00093EAE8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC071FD525B1C4D00093EAE8 /* MainViewController.swift */; };
+		CC071FD925B1C4D00093EAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC071FD725B1C4D00093EAE8 /* Main.storyboard */; };
+		CC071FDB25B1C4D20093EAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC071FDA25B1C4D20093EAE8 /* Assets.xcassets */; };
+		CC071FDE25B1C4D20093EAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC071FDC25B1C4D20093EAE8 /* LaunchScreen.storyboard */; };
+		CC071FEC25B1CA940093EAE8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC071FEB25B1CA940093EAE8 /* DataModel.swift */; };
+		CC071FF525B1D33A0093EAE8 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC071FF425B1D33A0093EAE8 /* HomeTableViewCell.swift */; };
+		CC071FFC25B1D8050093EAE8 /* DateFormatFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC071FFB25B1D8050093EAE8 /* DateFormatFunctions.swift */; };
+		CC07200125B1D8DD0093EAE8 /* ImageFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC07200025B1D8DD0093EAE8 /* ImageFileManager.swift */; };
+		CC07200425B1DE440093EAE8 /* AddPlantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC07200325B1DE440093EAE8 /* AddPlantTableViewController.swift */; };
+		CC07200E25B2065F0093EAE8 /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC07200D25B2065F0093EAE8 /* JournalTableViewController.swift */; };
+		CC07201125B206B50093EAE8 /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC07201025B206B50093EAE8 /* JournalTableViewCell.swift */; };
+		CC07201D25B212A10093EAE8 /* WriteJournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC07201C25B212A10093EAE8 /* WriteJournalTableViewController.swift */; };
+		CC82AD6125B328EA00DE00EC /* CollectionStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC82AD6025B328EA00DE00EC /* CollectionStoryboard.storyboard */; };
+		CCA5B63525B37249005A5665 /* JournalDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5B63425B37249005A5665 /* JournalDetailTableViewController.swift */; };
+		CCB96CCD25B4431900B04F00 /* EmotionalStateAndPlantCare.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB96CCC25B4431900B04F00 /* EmotionalStateAndPlantCare.swift */; };
+		CCB96CD025B4605600B04F00 /* EditPlantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB96CCF25B4605600B04F00 /* EditPlantTableViewController.swift */; };
+		CCB96CD425B491FC00B04F00 /* EditJournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB96CD325B491FC00B04F00 /* EditJournalTableViewController.swift */; };
+		CCB96CDD25B4A91600B04F00 /* ChoosePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB96CDC25B4A91600B04F00 /* ChoosePhotoViewController.swift */; };
+		CCF5F09B25B5543F00097435 /* JournalDetailPlantCareTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF5F09A25B5543F00097435 /* JournalDetailPlantCareTableViewCell.swift */; };
+		D0714209CB92BE166DA254EB /* Pods_PetPlantRealmDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39028E2A284488139F78990A /* Pods_PetPlantRealmDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39028E2A284488139F78990A /* Pods_PetPlantRealmDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetPlantRealmDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5E830E5BFC2CEC50ADDBD0 /* Pods-PetPlantRealmDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetPlantRealmDemo.debug.xcconfig"; path = "Target Support Files/Pods-PetPlantRealmDemo/Pods-PetPlantRealmDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CC071FCE25B1C4D00093EAE8 /* PetPlantRealmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetPlantRealmDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC071FD125B1C4D00093EAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC071FD325B1C4D00093EAE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC071FD525B1C4D00093EAE8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CC071FD825B1C4D00093EAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC071FDA25B1C4D20093EAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC071FDD25B1C4D20093EAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC071FDF25B1C4D20093EAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC071FEB25B1CA940093EAE8 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CC071FF425B1D33A0093EAE8 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		CC071FFB25B1D8050093EAE8 /* DateFormatFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatFunctions.swift; sourceTree = "<group>"; };
+		CC07200025B1D8DD0093EAE8 /* ImageFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFileManager.swift; sourceTree = "<group>"; };
+		CC07200325B1DE440093EAE8 /* AddPlantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantTableViewController.swift; sourceTree = "<group>"; };
+		CC07200D25B2065F0093EAE8 /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		CC07201025B206B50093EAE8 /* JournalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
+		CC07201C25B212A10093EAE8 /* WriteJournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteJournalTableViewController.swift; sourceTree = "<group>"; };
+		CC82AD6025B328EA00DE00EC /* CollectionStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CollectionStoryboard.storyboard; sourceTree = "<group>"; };
+		CCA5B63425B37249005A5665 /* JournalDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailTableViewController.swift; sourceTree = "<group>"; };
+		CCB96CCC25B4431900B04F00 /* EmotionalStateAndPlantCare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalStateAndPlantCare.swift; sourceTree = "<group>"; };
+		CCB96CCF25B4605600B04F00 /* EditPlantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPlantTableViewController.swift; sourceTree = "<group>"; };
+		CCB96CD325B491FC00B04F00 /* EditJournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJournalTableViewController.swift; sourceTree = "<group>"; };
+		CCB96CDC25B4A91600B04F00 /* ChoosePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePhotoViewController.swift; sourceTree = "<group>"; };
+		CCF5F09A25B5543F00097435 /* JournalDetailPlantCareTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailPlantCareTableViewCell.swift; sourceTree = "<group>"; };
+		CE766698C0FD7EB33A565A12 /* Pods-PetPlantRealmDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetPlantRealmDemo.release.xcconfig"; path = "Target Support Files/Pods-PetPlantRealmDemo/Pods-PetPlantRealmDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC071FCB25B1C4D00093EAE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0714209CB92BE166DA254EB /* Pods_PetPlantRealmDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62D9704446C8DFD81C271B40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39028E2A284488139F78990A /* Pods_PetPlantRealmDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D0CDE9748788CB1F9865A71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E830E5BFC2CEC50ADDBD0 /* Pods-PetPlantRealmDemo.debug.xcconfig */,
+				CE766698C0FD7EB33A565A12 /* Pods-PetPlantRealmDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC071FC525B1C4D00093EAE8 = {
+			isa = PBXGroup;
+			children = (
+				CC071FD025B1C4D00093EAE8 /* PetPlantRealmDemo */,
+				CC071FCF25B1C4D00093EAE8 /* Products */,
+				7D0CDE9748788CB1F9865A71 /* Pods */,
+				62D9704446C8DFD81C271B40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC071FCF25B1C4D00093EAE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC071FCE25B1C4D00093EAE8 /* PetPlantRealmDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC071FD025B1C4D00093EAE8 /* PetPlantRealmDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CCB96CD925B49B5E00B04F00 /* AlertControllers */,
+				CCB96CCB25B442DF00B04F00 /* Functions */,
+				CC071FF725B1D5980093EAE8 /* ViewControllers */,
+				CC071FEB25B1CA940093EAE8 /* DataModel.swift */,
+				CC071FD125B1C4D00093EAE8 /* AppDelegate.swift */,
+				CC071FD325B1C4D00093EAE8 /* SceneDelegate.swift */,
+				CC071FD725B1C4D00093EAE8 /* Main.storyboard */,
+				CC82AD6025B328EA00DE00EC /* CollectionStoryboard.storyboard */,
+				CC071FDA25B1C4D20093EAE8 /* Assets.xcassets */,
+				CC071FDC25B1C4D20093EAE8 /* LaunchScreen.storyboard */,
+				CC071FDF25B1C4D20093EAE8 /* Info.plist */,
+			);
+			path = PetPlantRealmDemo;
+			sourceTree = "<group>";
+		};
+		CC071FEF25B1D2F50093EAE8 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				CC071FF425B1D33A0093EAE8 /* HomeTableViewCell.swift */,
+				CC07201025B206B50093EAE8 /* JournalTableViewCell.swift */,
+				CCF5F09A25B5543F00097435 /* JournalDetailPlantCareTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		CC071FF725B1D5980093EAE8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC071FD525B1C4D00093EAE8 /* MainViewController.swift */,
+				CC07200325B1DE440093EAE8 /* AddPlantTableViewController.swift */,
+				CCB96CCF25B4605600B04F00 /* EditPlantTableViewController.swift */,
+				CC07200D25B2065F0093EAE8 /* JournalTableViewController.swift */,
+				CCA5B63425B37249005A5665 /* JournalDetailTableViewController.swift */,
+				CC07201C25B212A10093EAE8 /* WriteJournalTableViewController.swift */,
+				CCB96CD325B491FC00B04F00 /* EditJournalTableViewController.swift */,
+				CC071FEF25B1D2F50093EAE8 /* TableViewCells */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CCB96CCB25B442DF00B04F00 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				CC07200025B1D8DD0093EAE8 /* ImageFileManager.swift */,
+				CC071FFB25B1D8050093EAE8 /* DateFormatFunctions.swift */,
+				CCB96CCC25B4431900B04F00 /* EmotionalStateAndPlantCare.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		CCB96CD925B49B5E00B04F00 /* AlertControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCB96CDC25B4A91600B04F00 /* ChoosePhotoViewController.swift */,
+			);
+			path = AlertControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC071FCD25B1C4D00093EAE8 /* PetPlantRealmDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC071FE225B1C4D20093EAE8 /* Build configuration list for PBXNativeTarget "PetPlantRealmDemo" */;
+			buildPhases = (
+				4F31DD43F1ACD6EF7816C0D8 /* [CP] Check Pods Manifest.lock */,
+				CC071FCA25B1C4D00093EAE8 /* Sources */,
+				CC071FCB25B1C4D00093EAE8 /* Frameworks */,
+				CC071FCC25B1C4D00093EAE8 /* Resources */,
+				CB52B3736721E6E140FFA4B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetPlantRealmDemo;
+			productName = PetPlantRealmDemo;
+			productReference = CC071FCE25B1C4D00093EAE8 /* PetPlantRealmDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC071FC625B1C4D00093EAE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CC071FCD25B1C4D00093EAE8 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = CC071FC925B1C4D00093EAE8 /* Build configuration list for PBXProject "PetPlantRealmDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC071FC525B1C4D00093EAE8;
+			productRefGroup = CC071FCF25B1C4D00093EAE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC071FCD25B1C4D00093EAE8 /* PetPlantRealmDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC071FCC25B1C4D00093EAE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC071FDE25B1C4D20093EAE8 /* LaunchScreen.storyboard in Resources */,
+				CC071FDB25B1C4D20093EAE8 /* Assets.xcassets in Resources */,
+				CC071FD925B1C4D00093EAE8 /* Main.storyboard in Resources */,
+				CC82AD6125B328EA00DE00EC /* CollectionStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F31DD43F1ACD6EF7816C0D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetPlantRealmDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB52B3736721E6E140FFA4B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetPlantRealmDemo/Pods-PetPlantRealmDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetPlantRealmDemo/Pods-PetPlantRealmDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PetPlantRealmDemo/Pods-PetPlantRealmDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC071FCA25B1C4D00093EAE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC071FD625B1C4D00093EAE8 /* MainViewController.swift in Sources */,
+				CCB96CD025B4605600B04F00 /* EditPlantTableViewController.swift in Sources */,
+				CC07200425B1DE440093EAE8 /* AddPlantTableViewController.swift in Sources */,
+				CC07200125B1D8DD0093EAE8 /* ImageFileManager.swift in Sources */,
+				CCB96CDD25B4A91600B04F00 /* ChoosePhotoViewController.swift in Sources */,
+				CCB96CCD25B4431900B04F00 /* EmotionalStateAndPlantCare.swift in Sources */,
+				CC071FF525B1D33A0093EAE8 /* HomeTableViewCell.swift in Sources */,
+				CC07201D25B212A10093EAE8 /* WriteJournalTableViewController.swift in Sources */,
+				CCB96CD425B491FC00B04F00 /* EditJournalTableViewController.swift in Sources */,
+				CC071FEC25B1CA940093EAE8 /* DataModel.swift in Sources */,
+				CCA5B63525B37249005A5665 /* JournalDetailTableViewController.swift in Sources */,
+				CC071FD225B1C4D00093EAE8 /* AppDelegate.swift in Sources */,
+				CCF5F09B25B5543F00097435 /* JournalDetailPlantCareTableViewCell.swift in Sources */,
+				CC071FFC25B1D8050093EAE8 /* DateFormatFunctions.swift in Sources */,
+				CC07201125B206B50093EAE8 /* JournalTableViewCell.swift in Sources */,
+				CC07200E25B2065F0093EAE8 /* JournalTableViewController.swift in Sources */,
+				CC071FD425B1C4D00093EAE8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC071FD725B1C4D00093EAE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC071FD825B1C4D00093EAE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC071FDC25B1C4D20093EAE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC071FDD25B1C4D20093EAE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC071FE025B1C4D20093EAE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC071FE125B1C4D20093EAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC071FE325B1C4D20093EAE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5E830E5BFC2CEC50ADDBD0 /* Pods-PetPlantRealmDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86F3BYCLAK;
+				INFOPLIST_FILE = PetPlantRealmDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jaemoo.PetPlantRealmDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC071FE425B1C4D20093EAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE766698C0FD7EB33A565A12 /* Pods-PetPlantRealmDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86F3BYCLAK;
+				INFOPLIST_FILE = PetPlantRealmDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jaemoo.PetPlantRealmDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC071FC925B1C4D00093EAE8 /* Build configuration list for PBXProject "PetPlantRealmDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC071FE025B1C4D20093EAE8 /* Debug */,
+				CC071FE125B1C4D20093EAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC071FE225B1C4D20093EAE8 /* Build configuration list for PBXNativeTarget "PetPlantRealmDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC071FE325B1C4D20093EAE8 /* Debug */,
+				CC071FE425B1C4D20093EAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC071FC625B1C4D00093EAE8 /* Project object */;
+}
